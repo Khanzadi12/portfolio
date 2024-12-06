@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+    body {
+        background-color: rgb(116, 198, 198);
+        margin: 0;
+        padding: 0;
+        line-height: 1.6;
+    }
+    #pic{
+    border-radius:50%;
+    border:20px solid black;
+    padding:15px;
+  } 
+     h3{
+        color:rgb(92, 9, 9);
+        font-size:60px;
+    }
+    h4{
+     color:rgb(94, 13, 13);
+     font-size:50px ;   
+    }
+    p{
+     color:rgb(192, 84, 45);
+     font-size:40px;   
+    }
+    h1{
+     color:rgb(105, 44, 44) ;
+     font-size:90px;  
+    }
+    header {
+        color:solid rgb(171, 49, 171);
+        font-size:70px;    
+        padding: 10px 0;
+        text-align: center;
+    }
+   nav a {
+        color: #fff;
+        text-decoration: none;
+    }
+    
+    section {
+        padding: 20px;
+    }
+    h2{
+    color:solid rgb(209, 41, 41) ;
+    font-size: 80px;   
+    }
+    footer {
+        text-align: center;
+        padding: 10px 0;
+        background: #333;
+        color: #fff;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+    }
+    
+    .project {
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        padding: 10px;
+        border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+    <header>
+        <h1>KULSOOM M.NADEEM KHANZADA</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <section id="pic">
+ <img id="pic" src="d:\EDITING\muslim-woman-work-with-computer-in-office-hijab-muslim-girl-pointing-laptop-screen-W9P3NC.jpg"  style="width:80%">
+               </header>
+   </section>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>hello, i am an undergraduate student & a beginner in web development.</p>
+    </section>
+
+
+    <section id="projects">
+        <h3>My Projects</h3>
+        <div class="project">
+            <h4>HTML FORMS:</h4>
+            <p>it is my first assignment project from which the journey to become a web developer is start.</p>
+        </div>
+        <div class="project">
+            <h4>CSS ASSIGNMENTS:</h4>
+            <p>here is the CSS work start</p>
+        </div>
+        <div class="project">
+         <h4>JAVASCRIPT:</h4>
+         <p>here is the work which belongs to javascipt.</p>   
+        </div>
+        <!-- Add more projects as needed -->
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" required></textarea><br>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Your Name</p>
+    </footer>
+</body>
+</html>
